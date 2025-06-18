@@ -20,6 +20,41 @@ While the SmartPort SD Nano Shield is designed with flexibility in mind, most Ap
 
 Tested and confirmed working on an Apple IIGS. It should also work with the Apple IIc, but please verify pinout compatibility before use.
 
+## What do I need to put it together?
+
+### Bill of Materials (BOM)
+- Qty 1: 9 Pin male (straight through) IDC header or hooded/keyed IDC header (2.54mm pitch): Aliexpress
+- Qty 9: DB 1.0mm pins, Wires Solder Model - https://www.aliexpress.us/item/3256802431271655.html
+- Qty 2: M2.5 Nuts - https://www.aliexpress.us/item/2255800799473326.html
+- Qty 2: M2.5x12mm Countersunk Screws - https://www.aliexpress.us/item/2251832747871730.html
+- (three pieces): 3D print the "DB-19M-Adapter-Male-Rev1" STL files from the FujiNet Apple II project: https://github.com/FujiNetWIFI/fujinet-hardware/tree/master/AppleII/DB-19M-Adapter-Male-Rev1
+- note: For the above, I highly suggest you male a slightly larger hole than the pin header to get the pins to go through.  I use a Wiha screwdriver only slightly bigger than the hole in the DE19 print to widen the nine pins slightly.  It makes the pins push in slightly easier.
+
+## Assembly
+
+Before you begin soldering, carefully read the entire set of instructions below to understand how the components fit together. Proper assembly sequence is essential for a successful build.
+
+1. **Solder the 9-pin IDC header first (computer side).**  
+   - This is the connector that faces the Apple II computer.  
+   - Solder this connector first for easiest access, otherwise you're going to be trying to solder between 3D printed plastic.  
+   - The 9 pin header should face away from the computer; this is where you'll later plug in the 9-pin cable from the SmartPort SD Nano Shield.  
+   - The silkscreen labels on the PCB help confirm correct orientation.
+
+2. **Install the DE-19 connector pins.**  
+   - Insert the 9 individual pins into the DE-19 footprint **from the back** of the DE19 3D print, as shown in the image above.  
+   - These should match the same 9-pin layout as the SmartPort SD Nano Shield cable.  Make sure you don't get it backward.
+   - Double-check the pin alignment using the clearly labeled silkscreen on the PCB, if you're using the correct pins you'll know if you're reversed or not.
+
+3. **Prepare to solder the DE-19 pins.**  
+   - Place the PCB over the pins but **do not press it down fully yet** as to leave a gap between the PCB and the 3D part of the DE19 connectdor.
+   - **Important:** Slide the "shoulder piece" (the alignment spacer) in behind the PCB before seating the PCB all the way down.  
+   - Once everything is aligned properly, solder all nine DE-19 pins.
+
+4. **Complete the assembly with the case.**  
+   - Install the top part of the 3D printed case over the assembly.
+   - Secure it using the included nuts and bolts.  
+   - If the pins and the shoulder piece were positioned correctly, the case should fit cleanly with no force.
+
 ## Contributing
 
 Contributions, bug reports, and improvements are welcome! Please use GitHub Issues to suggest changes or open a pull request with your proposed enhancements.
