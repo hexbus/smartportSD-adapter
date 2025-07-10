@@ -23,8 +23,10 @@ Tested and confirmed working on an Apple IIGS. It should also work with the Appl
 ## What do I need to put it together?
 
 ### Bill of Materials (BOM)
-- Qty 1: 9 Pin male (straight through) IDC header or hooded/keyed IDC header (2.54mm pitch): Aliexpress
-- Qty 9: DB 1.0mm pins, Wires Solder Model - https://www.aliexpress.us/item/3256802431271655.html
+- Qty 1: 9x1 Pin male (straight through) IDC header or hooded/keyed IDC header (2.54mm pitch) - such as an [XH 2.54mm](https://www.aliexpress.us/item/3256805407027838.html?spm=a2g0o.order_list.order_list_main.62.35a618021c0Zqn&gatewayAdapt=glo2usa) or [shrouded male DuPont](https://www.aliexpress.us/item/3256805243290163.html?spm=a2g0o.order_list.order_list_main.123.35a618021c0Zqn&gatewayAdapt=glo2usa): Aliexpress.
+- Qty 1: 9 x 1 pin male (right angle) IDE header or hooded/keyed IDC header (2.54mm pitch) of whatever you got for the previous step (either XH or Dupont) - the previous links have those versions as well.
+- Qty 1: A female to female 9 conductor to 9 conductor opposite direction cable [XH to XH](https://www.aliexpress.us/item/2251832672911708.html?spm=a2g0o.order_list.order_list_main.183.35a618021c0Zqn&gatewayAdapt=glo2usa) or [Dupont to Dupont](https://www.aliexpress.us/item/2255800932917997.html?spm=a2g0o.order_list.order_list_main.108.35a618021c0Zqn&gatewayAdapt=glo2usa) - depending on the type of connectors you used.  
+- Qty 9: DB type 1.0mm pins, you might wants spares too - https://www.aliexpress.us/item/3256802431271655.html
 - Qty 2: M2.5 Nuts - https://www.aliexpress.us/item/2255800799473326.html
 - Qty 2: M2.5x12mm Countersunk Screws - https://www.aliexpress.us/item/2251832747871730.html
 - (three pieces): 3D print the "DB-19M-Adapter-Male-Rev1" STL files from the FujiNet Apple II project: https://github.com/FujiNetWIFI/fujinet-hardware/tree/master/AppleII/DB-19M-Adapter-Male-Rev1
