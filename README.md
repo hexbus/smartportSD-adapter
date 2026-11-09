@@ -2,6 +2,17 @@
 
 An open hardware adapter designed by [hexbus](https://github.com/hexbus) to connect the [SmartPort SD Nano Shield](https://github.com/djtersteegc/smartportsd/tree/main/smartportsd-nano-shield) by [@djtersteegc](https://github.com/djtersteegc) to Apple II systems using the 19-pin (DB19/DE-19) SmartPort interface.
 
+## PCB ordering
+
+- **[Download the Gerber ZIP](https://github.com/hexbus/smartportSD-adapter/raw/refs/heads/main/gerbers.zip)**
+- **[Open JLCPCB using my referral link](https://jlcpcb.com/?from=RVDYTTLKZHK)**
+
+Download the Gerber ZIP, open JLCPCB through the referral link, and upload the ZIP.
+
+Confirm the detected outline, dimensions and layer count, and use this project's documented board and assembly requirements before ordering.
+
+The referral link does not upload files automatically. I may receive referral rewards for qualifying new users.
+
 ## Overview
 
 The SmartPort SD Nano Shield is a compact and powerful SmartPort-based SD card solution for Apple II computers. While the original board uses a 25-pin Duodisk connector, it also includes a more accessible 9-pin header that can be repurposed for DB19-compatible systems.
